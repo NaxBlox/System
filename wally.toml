@@ -1,0 +1,16 @@
+[package]
+name = "naxious/system"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+description = "A priority loading system for Roblox modules."
+exclude = ["**"]
+include = [
+    "Source",
+    "Source/*",
+    "default.project.json",
+    "wally.toml",
+    "README.md",
+]
+
+[dependencies]
